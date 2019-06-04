@@ -5,5 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Pouya Ataei Personal Website",
+    author: "Pouya Ataei",
+  },
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-playground"],
 }
