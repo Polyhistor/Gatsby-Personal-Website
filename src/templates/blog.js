@@ -31,7 +31,11 @@ export const query = graphql`
 const Blog = props => {
   // this allows us to render spcific node types differently
   const options = {
-    renderNode: {},
+    renderNode: {
+      "embedded-asset-block": (node) => {
+          return <img  />
+      }
+    },
   }
 
   return (
