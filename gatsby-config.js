@@ -15,6 +15,7 @@ module.exports = {
     author: "Pouya Ataei",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
